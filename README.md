@@ -196,15 +196,6 @@ output.xml
 
 ### Selecionando o PokemonAPI.xsd
 ![Fluxo](imagens/Screenshot_24.png)
-```
-PokemonAPI.xsd
-```
-📦 [Download do PokemonAPI.xsd – Integração com API Pokémon](https://github.com/souzajean/PokemonAPIMapping/blob/main/ArquivosXSD/PokemonAPI.xsd)
-
-
-
-
-
 
 
 
