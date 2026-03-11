@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Suppliers>
+    <Supplier>
+        <SupplierID>SUP-1001</SupplierID>
+        <Name>Fornecedor Exemplo LTDA</Name>
+        <City>São Paulo</City>
+        <Country>BR</Country>
+        <Email>contato@fornecedor.com</Email>
+        <Phone>+55 11 99999-9999</Phone>
+    </Supplier>
+
+    <Supplier>
+        <SupplierID>SUP-1002</SupplierID>
+        <Name>Distribuidora Alpha Test</Name>
+        <City>Campinas</City>
+        <Country>BR</Country>
+        <Email>vendas@alphadisttest.com</Email>
+        <Phone>+55 19 98888-7777</Phone>
+    </Supplier>
+</Suppliers>
