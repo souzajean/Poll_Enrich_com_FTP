@@ -119,7 +119,38 @@ output.xml
 
 
 
-### Adicionando o Mapping
+### XML Original
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<SupplierDetails>
+    
+    <Supplier>
+        <SupplierID>SUP-1001</SupplierID>
+        <CNPJ>99.999.999/0001-99</CNPJ>
+        <Category>Materiais de Escritório</Category>
+        <PaymentTerms>30</PaymentTerms>
+        <Bank>
+            <BankName>Banco do Brasil</BankName>
+            <Agency>1234</Agency>
+            <Account>98765-0</Account>
+        </Bank>
+    </Supplier>
+
+    <Supplier>
+        <SupplierID>SUP-1002</SupplierID>
+        <CNPJ>11.222.333/0001-44</CNPJ>
+        <Category>Distribuidor</Category>
+        <PaymentTerms>45</PaymentTerms>
+        <Bank>
+            <BankName>Itaú</BankName>
+            <Agency>5678</Agency>
+            <Account>12345-9</Account>
+        </Bank>
+    </Supplier>
+
+</SupplierDetails>
+```
+
 ![Fluxo](imagens/Screenshot_21.png)
 
 
