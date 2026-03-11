@@ -67,7 +67,7 @@ Address: /pollenrich/ftp
 ```
 
 
-### Adicionando o External Call
+### Selecionar o External Call
 ![Fluxo](imagens/Screenshot_10.png)
 
 
@@ -154,11 +154,11 @@ output.xml
 ![Fluxo](imagens/Screenshot_21.png)
 
 
-### Adicionando o Source Mapping
+### Configurando o Postman
 ![Fluxo](imagens/Screenshot_22.png)
 
 
-### Selecionando o Message
+### No FTP arquivo output.xml
 ![Fluxo](imagens/Screenshot_23.png)
 ```
 <?xml version="1.0" encoding="UTF-8"?>
