@@ -2,6 +2,8 @@
 SAP BTP CPI - Poll Enrich com FTP
 
 
+![Capa](imagens/capa-linkedin.png)
+
 Neste artigo é demonstrado como implementar o padrão de integração Content Enricher utilizando o componente Poll Enrich no SAP Integration Suite (Cloud Integration).
 
 O cenário recebe uma requisição HTTP contendo uma lista de fornecedores em formato XML. 
