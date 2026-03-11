@@ -21,49 +21,43 @@ Esse cenário demonstra uma arquitetura comum de integração onde dados são en
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
 ```
-PokemonAPI
+PollEnrichwithFTP
 ```
 
-### Adicionando o Artefato do Integration Flow
+### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_2.png)
 
 
-### Adicionando o nome do Integration Flow
+### Criar nosso Manage Security
 ![Fluxo](imagens/Screenshot_3.png)
-```
-Integracao_com_API_Pokemon
-```
 
-### Editando nosso Iflow
+
+### Criando nossas credenciais  para o FTP
 ![Fluxo](imagens/Screenshot_4.png)
 
 
-### Adicionar o HTTPS para o Sender para o Start
+### Adicionando o User para as credenciais do FTP
 ![Fluxo](imagens/Screenshot_5.png)
 
 
-### Adicionando o Endereço para o HTTPS
+### Adicionando um novo Sender
 ![Fluxo](imagens/Screenshot_6.png)
-```
-Address = /Pokemon
-```
 
 
-### Adicionando o Content Modifier
+### Renomeando nosso Sender
 ![Fluxo](imagens/Screenshot_7.png)
+```
+FTP
+```
 
-
-### Renomeando o Content Modifier
+### Sender vamos conectar no Start
 ![Fluxo](imagens/Screenshot_8.png)
-```
-set_Id_Pokemon
-```
 
 
-### Adicionando no Exchange Property
+### Adicionando o endereço do nosso Endpoint
 ![Fluxo](imagens/Screenshot_9.png)
 ```
-Exchange Property - create - _Id - Constant - 6
+Address: /pollenrich/ftp
 ```
 
 
