@@ -130,103 +130,34 @@ output.xml
 ### Selecionando o Message
 ![Fluxo](imagens/Screenshot_23.png)
 ```
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="ResultsPokemon">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element type="xs:string" name="form_name"/>
-        <xs:element type="xs:string" name="form_names"/>
-        <xs:element type="xs:byte" name="form_order"/>
-        <xs:element type="xs:byte" name="id"/>
-        <xs:element type="xs:string" name="is_battle_only"/>
-        <xs:element type="xs:string" name="is_default"/>
-        <xs:element type="xs:string" name="is_mega"/>
-        <xs:element type="xs:string" name="name"/>
-        <xs:element type="xs:string" name="names"/>
-        <xs:element type="xs:byte" name="order"/>
-        <xs:element name="pokemon">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="name"/>
-              <xs:element type="xs:string" name="url"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="sprites">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="back_default"/>
-              <xs:element type="xs:string" name="back_female"/>
-              <xs:element type="xs:string" name="back_shiny"/>
-              <xs:element type="xs:string" name="back_shiny_female"/>
-              <xs:element type="xs:string" name="front_default"/>
-              <xs:element type="xs:string" name="front_female"/>
-              <xs:element type="xs:string" name="front_shiny"/>
-              <xs:element type="xs:string" name="front_shiny_female"/>
-              <xs:element name="versions">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="generation-ix">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="scarlet-violet">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element type="xs:string" name="front_default"/>
-                                <xs:element type="xs:string" name="front_female"/>
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="generation-viii">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="brilliant-diamond-shining-pearl">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element type="xs:string" name="front_default"/>
-                                <xs:element type="xs:string" name="front_female"/>
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="types" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:byte" name="slot"/>
-              <xs:element name="type">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:string" name="name"/>
-                    <xs:element type="xs:string" name="url"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="version_group">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="name"/>
-              <xs:element type="xs:string" name="url"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+<?xml version="1.0" encoding="UTF-8"?>
+<SupplierDetails>
+    
+    <Supplier>
+        <SupplierID>SUP-1001</SupplierID>
+        <CNPJ>99.999.999/0001-99</CNPJ>
+        <Category>Materiais de Escritório</Category>
+        <PaymentTerms>30</PaymentTerms>
+        <Bank>
+            <BankName>Banco do Brasil</BankName>
+            <Agency>1234</Agency>
+            <Account>98765-0</Account>
+        </Bank>
+    </Supplier>
+
+    <Supplier>
+        <SupplierID>SUP-1002</SupplierID>
+        <CNPJ>11.222.333/0001-44</CNPJ>
+        <Category>Distribuidor</Category>
+        <PaymentTerms>45</PaymentTerms>
+        <Bank>
+            <BankName>Itaú</BankName>
+            <Agency>5678</Agency>
+            <Account>12345-9</Account>
+        </Bank>
+    </Supplier>
+
+</SupplierDetails>
 ```
 
 
