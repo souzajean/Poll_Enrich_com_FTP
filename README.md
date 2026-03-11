@@ -26,6 +26,9 @@ PollEnrichwithFTP
 
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_2.png)
+```
+PollEnrich_FTP_SupplierData_Integration
+```
 
 
 ### Criar nosso Manage Security
@@ -38,6 +41,9 @@ PollEnrichwithFTP
 
 ### Adicionando o User para as credenciais do FTP
 ![Fluxo](imagens/Screenshot_5.png)
+```
+FTP_USER
+```
 
 
 ### Adicionando um novo Sender
@@ -65,64 +71,52 @@ Address: /pollenrich/ftp
 ![Fluxo](imagens/Screenshot_10.png)
 
 
-### Adicionando o Request Replay
+### Adicionando o Poll Enrich
 ![Fluxo](imagens/Screenshot_11.png)
 
 
-### Renomeando o Request Replay
+### Vamos conectar o Sender no Poll Enrich
 ![Fluxo](imagens/Screenshot_12.png)
-```
-PokeAPI
-```
 
 
-### Renomeando o Receiver
+### Selecionar o FTP
 ![Fluxo](imagens/Screenshot_13.png)
-```
-APIPokemon
-```
 
 
-### Adicionando o HTTP
+### Adicionando as configurações do FTP no Source
 ![Fluxo](imagens/Screenshot_14.png)
 
 
-### Configurando o HTTP
+### Adicionando as configurações do FTP no Processing
 ![Fluxo](imagens/Screenshot_15.png)
-```
-https://pokeapi.co/api/v2/pokemon-form/${property._Id}
-```
 
 
-### Transformar e Converter JSON to XML
+### Conectar o End no Receiver
+Aqui vamos salvar o conteudo dentro do FTP.
 ![Fluxo](imagens/Screenshot_16.png)
 
 
-### Renomear Converter JSON to XML
+### Selecionar nosso adapter do FTP
 ![Fluxo](imagens/Screenshot_17.png)
-```
-JSON to XML
-```
 
 
-### Configurar o Converter JSON to XML
+### Adicionando as configurações do FTP no Target
+Aqui vamos definir o nome do nosso arquivo 
+```
+output.xml
+```
+
 ![Fluxo](imagens/Screenshot_18.png)
-```
-Use Namespace Mapping: Desmarcar
-Add XML Root Element: Marcar
-Name: ResultsPokemon
-```
 
 
-### Adicionar o Message Mapping
+
+### Adicionando as configurações do FTP no Processing
 ![Fluxo](imagens/Screenshot_19.png)
 
 
-### Renomeando o Message Mapping o Mapping
+### Configuração no WINSCP para p FTP
 ![Fluxo](imagens/Screenshot_20.png)
-```
-Message Mapping
-```
+
 
 
 ### Adicionando o Mapping
