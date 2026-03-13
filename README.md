@@ -224,7 +224,7 @@ output.xml
 
 <br>
 
-### Selecionando o PokemonAPI.xsd
+### Abrindo o arquivo Output.xml
 ![Fluxo](imagens/Screenshot_24.png)
 
 
