@@ -50,6 +50,7 @@ PollEnrich_FTP_SupplierData_Integration
 ![Fluxo](imagens/Screenshot_4.png)
 
 <br>
+
 ### Adicionando o User para as credenciais do FTP
 ![Fluxo](imagens/Screenshot_5.png)
 ```
