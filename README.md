@@ -192,6 +192,14 @@ output.xml
 ### No FTP arquivo output.xml
 ![Fluxo](imagens/Screenshot_23.png)
 ```
+
+<br>
+
+### Abrindo o arquivo Output.xml
+![Fluxo](imagens/Screenshot_24.png)
+
+<br>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <SupplierDetails>
     
@@ -222,10 +230,7 @@ output.xml
 </SupplierDetails>
 ```
 
-<br>
 
-### Abrindo o arquivo Output.xml
-![Fluxo](imagens/Screenshot_24.png)
 
 
 
