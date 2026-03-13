@@ -19,15 +19,20 @@ Esse cenário demonstra uma arquitetura comum de integração onde dados são en
 ![Capa](imagens/capa-linkedin.png)
 
 <br><br>
+
 📊 Exemplo Prático do Fluxo
+
 <br>
 
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
+
 ```
 PollEnrichwithFTP
 ```
+
 <br>
+
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_2.png)
 ```
@@ -35,10 +40,12 @@ PollEnrich_FTP_SupplierData_Integration
 ```
 
 <br>
+
 ### Criar nosso Manage Security
 ![Fluxo](imagens/Screenshot_3.png)
 
 <br>
+
 ### Criando nossas credenciais  para o FTP
 ![Fluxo](imagens/Screenshot_4.png)
 
@@ -50,20 +57,24 @@ FTP_USER
 ```
 
 <br>
+
 ### Adicionando um novo Sender
 ![Fluxo](imagens/Screenshot_6.png)
 
 <br>
+
 ### Renomeando nosso Sender
 ![Fluxo](imagens/Screenshot_7.png)
 ```
 FTP
 ```
 <br>
+
 ### Sender vamos conectar no Start
 ![Fluxo](imagens/Screenshot_8.png)
 
 <br>
+
 ### Adicionando o endereço do nosso Endpoint
 ![Fluxo](imagens/Screenshot_9.png)
 ```
@@ -71,39 +82,48 @@ Address: /pollenrich/ftp
 ```
 
 <br>
+
 ### Selecionar o External Call
 ![Fluxo](imagens/Screenshot_10.png)
 
 <br>
+
 ### Adicionando o Poll Enrich
 ![Fluxo](imagens/Screenshot_11.png)
 
 <br>
+
 ### Vamos conectar o Sender no Poll Enrich
 ![Fluxo](imagens/Screenshot_12.png)
 
 <br>
+
 ### Selecionar o FTP
 ![Fluxo](imagens/Screenshot_13.png)
 
 <br>
+
 ### Adicionando as configurações do FTP no Source
 ![Fluxo](imagens/Screenshot_14.png)
 
 <br>
+
 ### Adicionando as configurações do FTP no Processing
 ![Fluxo](imagens/Screenshot_15.png)
 
 <br>
+
 ### Conectar o End no Receiver
 Aqui vamos salvar o conteudo dentro do FTP.
 ![Fluxo](imagens/Screenshot_16.png)
 
 <br>
+
 ### Selecionar nosso adapter do FTP
 ![Fluxo](imagens/Screenshot_17.png)
 
 <br>
+
 ### Adicionando as configurações do FTP no Target
 Aqui vamos definir o nome do nosso arquivo 
 ```
@@ -114,16 +134,19 @@ output.xml
 
 
 <br>
+
 ### Adicionando as configurações do FTP no Processing
 ![Fluxo](imagens/Screenshot_19.png)
 
 
 <br>
+
 ### Configuração no WINSCP para p FTP
 ![Fluxo](imagens/Screenshot_20.png)
 
 
 <br>
+
 ### XML Original
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -159,10 +182,12 @@ output.xml
 ![Fluxo](imagens/Screenshot_21.png)
 
 <br>
+
 ### Configurando o Postman
 ![Fluxo](imagens/Screenshot_22.png)
 
 <br>
+
 ### No FTP arquivo output.xml
 ![Fluxo](imagens/Screenshot_23.png)
 ```
@@ -197,6 +222,7 @@ output.xml
 ```
 
 <br>
+
 ### Selecionando o PokemonAPI.xsd
 ![Fluxo](imagens/Screenshot_24.png)
 
@@ -204,6 +230,7 @@ output.xml
 
 
 <br><br>
+
 ## 📦 Exemplo prático – iFlow para baixar
 
 📦 [Download do iFlow – PollEnrich_FTP_](https://github.com/souzajean/Poll_Enrich_com_FTP/raw/main/Package/PollEnrich_FTP_SupplierData_Integration.zip)
